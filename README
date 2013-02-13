@@ -1,7 +1,7 @@
-Justin Shelton (jkshelton@gmail.com)
+Justin Shelton
 
 Simple implementation of a Fifteen Puzzle for the iPhone.
 Currently uses a static image for the tiles.
 Shaking the device causes the tiles to scramble in addition to a new game button.
 
-To run, simple open FifteenPuzzle.xcodeproj and build onto the simulator.
+To run, simply open FifteenPuzzle.xcodeproj and build onto the simulator.
