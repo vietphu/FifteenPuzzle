@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		975A098314DBA4340064D803 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 975A098214DBA4340064D803 /* bg.png */; };
+		97AB16F614D85A6C00232E89 /* FifteenBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AB16F514D85A6C00232E89 /* FifteenBoard.m */; };
+		ACFC2A2614CF234E00CBB688 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFC2A2514CF234E00CBB688 /* UIKit.framework */; };
+		ACFC2A2814CF234E00CBB688 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFC2A2714CF234E00CBB688 /* Foundation.framework */; };
+		ACFC2A2A14CF234E00CBB688 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFC2A2914CF234E00CBB688 /* CoreGraphics.framework */; };
+		ACFC2A3014CF234E00CBB688 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACFC2A2E14CF234E00CBB688 /* InfoPlist.strings */; };
+		ACFC2A3214CF234E00CBB688 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC2A3114CF234E00CBB688 /* main.m */; };
+		ACFC2A3614CF234E00CBB688 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC2A3514CF234E00CBB688 /* AppDelegate.m */; };
+		ACFC2A3914CF234E00CBB688 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC2A3814CF234E00CBB688 /* ViewController.m */; };
+		ACFC2A3C14CF234E00CBB688 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACFC2A3A14CF234E00CBB688 /* ViewController.xib */; };
+		ACFC2A4714CF293200CBB688 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFC2A4614CF293200CBB688 /* Default@2x.png */; };
+		ACFC2A4D14CF29CC00CBB688 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFC2A4C14CF29CC00CBB688 /* Default.png */; };
+		ACFC2A5314CF2BBF00CBB688 /* IconRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFC2A5214CF2BBF00CBB688 /* IconRetina.png */; };
+		ACFC2A5514CF2BC300CBB688 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFC2A5414CF2BC300CBB688 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		975A098214DBA4340064D803 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		97AB16F414D85A6C00232E89 /* FifteenBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifteenBoard.h; sourceTree = "<group>"; };
+		97AB16F514D85A6C00232E89 /* FifteenBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifteenBoard.m; sourceTree = "<group>"; };
+		ACFC2A2114CF234E00CBB688 /* FifteenPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FifteenPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFC2A2514CF234E00CBB688 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACFC2A2714CF234E00CBB688 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACFC2A2914CF234E00CBB688 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACFC2A2D14CF234E00CBB688 /* FifteenPuzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FifteenPuzzle-Info.plist"; sourceTree = "<group>"; };
+		ACFC2A2F14CF234E00CBB688 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACFC2A3114CF234E00CBB688 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACFC2A3314CF234E00CBB688 /* FifteenPuzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FifteenPuzzle-Prefix.pch"; sourceTree = "<group>"; };
+		ACFC2A3414CF234E00CBB688 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACFC2A3514CF234E00CBB688 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACFC2A3714CF234E00CBB688 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACFC2A3814CF234E00CBB688 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACFC2A3B14CF234E00CBB688 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		ACFC2A4614CF293200CBB688 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ACFC2A4C14CF29CC00CBB688 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ACFC2A5214CF2BBF00CBB688 /* IconRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconRetina.png; sourceTree = "<group>"; };
+		ACFC2A5414CF2BC300CBB688 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFC2A1E14CF234E00CBB688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFC2A2614CF234E00CBB688 /* UIKit.framework in Frameworks */,
+				ACFC2A2814CF234E00CBB688 /* Foundation.framework in Frameworks */,
+				ACFC2A2A14CF234E00CBB688 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACFC2A1614CF234E00CBB688 = {
+			isa = PBXGroup;
+			children = (
+				ACFC2A5414CF2BC300CBB688 /* Icon.png */,
+				ACFC2A5214CF2BBF00CBB688 /* IconRetina.png */,
+				ACFC2A4C14CF29CC00CBB688 /* Default.png */,
+				ACFC2A4614CF293200CBB688 /* Default@2x.png */,
+				975A098214DBA4340064D803 /* bg.png */,
+				ACFC2A2B14CF234E00CBB688 /* FifteenPuzzle */,
+				ACFC2A2414CF234E00CBB688 /* Frameworks */,
+				ACFC2A2214CF234E00CBB688 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFC2A2214CF234E00CBB688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC2A2114CF234E00CBB688 /* FifteenPuzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACFC2A2414CF234E00CBB688 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC2A2514CF234E00CBB688 /* UIKit.framework */,
+				ACFC2A2714CF234E00CBB688 /* Foundation.framework */,
+				ACFC2A2914CF234E00CBB688 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACFC2A2B14CF234E00CBB688 /* FifteenPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC2A3414CF234E00CBB688 /* AppDelegate.h */,
+				ACFC2A3514CF234E00CBB688 /* AppDelegate.m */,
+				ACFC2A3714CF234E00CBB688 /* ViewController.h */,
+				ACFC2A3814CF234E00CBB688 /* ViewController.m */,
+				97AB16F414D85A6C00232E89 /* FifteenBoard.h */,
+				97AB16F514D85A6C00232E89 /* FifteenBoard.m */,
+				ACFC2A3A14CF234E00CBB688 /* ViewController.xib */,
+				ACFC2A2C14CF234E00CBB688 /* Supporting Files */,
+			);
+			path = FifteenPuzzle;
+			sourceTree = "<group>";
+		};
+		ACFC2A2C14CF234E00CBB688 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC2A2D14CF234E00CBB688 /* FifteenPuzzle-Info.plist */,
+				ACFC2A2E14CF234E00CBB688 /* InfoPlist.strings */,
+				ACFC2A3114CF234E00CBB688 /* main.m */,
+				ACFC2A3314CF234E00CBB688 /* FifteenPuzzle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACFC2A2014CF234E00CBB688 /* FifteenPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFC2A3F14CF234E00CBB688 /* Build configuration list for PBXNativeTarget "FifteenPuzzle" */;
+			buildPhases = (
+				ACFC2A1D14CF234E00CBB688 /* Sources */,
+				ACFC2A1E14CF234E00CBB688 /* Frameworks */,
+				ACFC2A1F14CF234E00CBB688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FifteenPuzzle;
+			productName = FifteenPuzzle;
+			productReference = ACFC2A2114CF234E00CBB688 /* FifteenPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFC2A1814CF234E00CBB688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = ACFC2A1B14CF234E00CBB688 /* Build configuration list for PBXProject "FifteenPuzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACFC2A1614CF234E00CBB688;
+			productRefGroup = ACFC2A2214CF234E00CBB688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFC2A2014CF234E00CBB688 /* FifteenPuzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACFC2A1F14CF234E00CBB688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFC2A3014CF234E00CBB688 /* InfoPlist.strings in Resources */,
+				ACFC2A3C14CF234E00CBB688 /* ViewController.xib in Resources */,
+				ACFC2A4714CF293200CBB688 /* Default@2x.png in Resources */,
+				ACFC2A4D14CF29CC00CBB688 /* Default.png in Resources */,
+				ACFC2A5314CF2BBF00CBB688 /* IconRetina.png in Resources */,
+				ACFC2A5514CF2BC300CBB688 /* Icon.png in Resources */,
+				975A098314DBA4340064D803 /* bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFC2A1D14CF234E00CBB688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFC2A3214CF234E00CBB688 /* main.m in Sources */,
+				ACFC2A3614CF234E00CBB688 /* AppDelegate.m in Sources */,
+				ACFC2A3914CF234E00CBB688 /* ViewController.m in Sources */,
+				97AB16F614D85A6C00232E89 /* FifteenBoard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACFC2A2E14CF234E00CBB688 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFC2A2F14CF234E00CBB688 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACFC2A3A14CF234E00CBB688 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFC2A3B14CF234E00CBB688 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACFC2A3D14CF234E00CBB688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACFC2A3E14CF234E00CBB688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACFC2A4014CF234E00CBB688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FifteenPuzzle/FifteenPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "FifteenPuzzle/FifteenPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACFC2A4114CF234E00CBB688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FifteenPuzzle/FifteenPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "FifteenPuzzle/FifteenPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFC2A1B14CF234E00CBB688 /* Build configuration list for PBXProject "FifteenPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFC2A3D14CF234E00CBB688 /* Debug */,
+				ACFC2A3E14CF234E00CBB688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFC2A3F14CF234E00CBB688 /* Build configuration list for PBXNativeTarget "FifteenPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFC2A4014CF234E00CBB688 /* Debug */,
+				ACFC2A4114CF234E00CBB688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACFC2A1814CF234E00CBB688 /* Project object */;
+}
